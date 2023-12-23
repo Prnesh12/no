@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="canny.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        /* Add the styles for the dropdown */
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #96bbef;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;*
+        }
+
+        .column {
+            margin-top: 50px;
+
+            box-sizing: border-box;
+            float: left;
+            width: 45%;
+            padding-top: px;
+            border: 5px solid rgb(251, 184, 184);
+            background-color:  rgb(251, 184, 184);
+            border-radius: 20px;
+            
+            
+        }
+
+        
+        .hed {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .column {
+            margin-bottom: 20px;
+        }
+    </style>
+    <script>
+        function openwebpage(page) {
+            window.location.href = page;
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="head">
+        <video autoplay loop muted plays-inline class="ved">
+            <source src="pexels_videos_1689821 (1080p).mp4">
+        </video>
+        <nav class="nav">
+            <img src="ll-removebg-preview.png" class="logo" alt="Logo" onclick="openwebpage('http://127.0.0.1:3000/canny.html')">
+            <ul>
+                <li><a href="#" class="jk">Home</a></li>
+                <li><a href="#" class="jk">About us</a></li>
+                <li class="dropdown">
+                    <a href="#" class="jk">User</a>
+                    <div class="dropdown-content">
+                        <a href="#" onclick="openwebpage('cart.html')">Cart<br></a>
+                        <a href="#" onclick="openwebpage('profile.html')">Profile<br></a>
+                        <a href="#" onclick="openwebpage('logout.html')">Logout<br></a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <h1>Blossm</h1>
+        <a href="#" class="ex">Explore</a>
+    </div>
+    <section class="hed">
+        <div class="container">
+        <h1> About Us</h1>
+        <br>
+        
+        <p>Welcome to Your Flower Shop, where the beauty of blossoms meets the art of gifting..</p>
+        <div class="line"></div>
+        <div class="column" id="d">
+            <h2>Our story</h2>
+            <p >
+                Our Story
+              In 2014, we embarked on a journey fueled <br>by  passion for nature's wonders. <br> What started as a small family venture has <br>flourished into Your Flower Shop, a place where <br> floral artistry meets heartfelt emotions. <br> Every bloom we curate has a tale, <br>and we're here to help you tell yours.
+
+            </p>
+
+
+        </div>
+        <div class="column" id="f">
+            <h2>Our mission</h2>
+            <p >
+                Our Story
+                At Blossm , our mission is to weave emotions  <br>into every petal, creating floral masterpieces that speak volumes.  We believe that flowers have the power <br> to convey feelings, tell stories, and uplift spirits.  <br>Each arrangement is crafted with precision, passion, and <br> a commitment to excellence.
+
+            </p>
+
+
+        </div>
+        
+    
+    
+    </section>
+    <section class="why-choose">
+        <h2>Why Choose Blossm?</h2>
+        <br>
+        <ul>
+            <li><strong>Freshness Guarantee:</strong> We source the finest, freshest blooms to ensure longevity and beauty.</li>
+            <br>
+            <li><strong>Unique Designs:</strong> Our floral creations are one-of-a-kind, crafted with artistic flair and attention to detail.</li><br>     
+            <li><strong>Personalized Service:</strong> Your satisfaction is our top priority. We work closely with you to understand your preferences <br>and tailor arrangements to suit your needs.</li>
+        </ul>
+    </section>
+    <section>
+        
+    </section>
+    
+    
+</body>
+</html>
